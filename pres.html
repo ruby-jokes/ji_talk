@@ -4873,27 +4873,20 @@ jQuery.extend( jQuery.easing,
         
           <div class="">
             <div id="slide-1" class="content">
-              <h2>Interviewing sucks.</h2><p>You get asked dumb questions, and and are asked to perform stupid programmer tricks.</p>
+              <h2>Interviewing sucks.</h2><p>You get asked dumb questions, and are asked to perform stupid programmer tricks.</p>
             </div>
           </div>
         
           <div class="">
             <div id="slide-2" class="content">
-              <h1>FizzBuzz</h1><h2>(Don't write it like this)</h2><div class="highlight ruby code highlight"><pre><span class="k">def</span> <span class="nf">fizz_buzz</span><span class="p">(</span><span class="n">max</span><span class="p">)</span>
-  <span class="n">acc</span> <span class="o">=</span> <span class="o">[]</span>
-  <span class="p">(</span><span class="mi">1</span><span class="o">.</span><span class="n">.max</span><span class="p">)</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="o">|</span>
-    <span class="k">if</span> <span class="p">((</span><span class="n">n</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">))</span>
-      <span class="n">acc</span> <span class="o">&lt;&lt;</span> <span class="s2">"FizzBuzz"</span>
-    <span class="k">elsif</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
-      <span class="n">acc</span> <span class="o">&lt;&lt;</span> <span class="s2">"Fizz"</span>
-    <span class="k">elsif</span> <span class="p">(</span><span class="n">n</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
-      <span class="n">acc</span> <span class="o">&lt;&lt;</span> <span class="s2">"Buzz"</span>
-    <span class="k">else</span>
-      <span class="n">acc</span> <span class="o">&lt;&lt;</span> <span class="n">n</span>
+              <h1>FizzBuzz</h1><h2>(Don't write it like this)</h2><div class="highlight ruby code highlight"><pre> <span class="k">def</span> <span class="nf">fizz_buzz</span><span class="p">(</span><span class="n">max</span><span class="p">)</span>
+    <span class="nb">Array</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">max</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">i</span><span class="o">|</span>
+      <span class="n">j</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+      <span class="n">val</span>  <span class="o">=</span> <span class="p">(</span><span class="n">j</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="s2">"Fizz"</span> <span class="p">:</span> <span class="s2">""</span><span class="p">)</span> <span class="o">+</span>
+      <span class="p">(</span><span class="n">j</span> <span class="o">%</span> <span class="mi">5</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">?</span> <span class="s2">"Buzz"</span> <span class="p">:</span> <span class="s2">""</span><span class="p">)</span>
+      <span class="n">val</span><span class="o">.</span><span class="n">empty?</span> <span class="p">?</span>  <span class="n">j</span><span class="o">.</span><span class="n">to_s</span>  <span class="p">:</span> <span class="n">val</span>
     <span class="k">end</span>
   <span class="k">end</span>
-  <span class="k">return</span> <span class="n">acc</span>
-<span class="k">end</span>
 </pre></div>
             </div>
           </div>
@@ -5106,7 +5099,22 @@ You get the first <em>n</em> primes!</p><div class="highlight ruby code highligh
         
           <div class="">
             <div id="slide-32" class="content">
-              <h1>Thanks for allowing us to waste 5 minutes of your time.</h1>
+              <h1>Don't waste your time.</h1><pre><code>gem install job_interview
+</code></pre><p>(Already downloaded &gt; 160 times!)</p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-33" class="content">
+              <h1>Thanks for allowing us to waste your time.</h1>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-34" class="content">
+              <h1>Micah Gates</h1><h2>@micahjgates</h2><h1>Jason Lewis</h1><h2>@canweriotnow</h2><pre><code>http://rubygems.org/gems/job_interview
+https://github.com/ruby-jokes/job_interview
+</code></pre>
             </div>
           </div>
         

@@ -260,5 +260,23 @@ We have excellent test coverage with RSpec, so we think it will.
 
 !SLIDE
 
-#Thanks for allowing us to waste 5 minutes of your time.
+#Don't waste your time.
 
+    gem install job_interview
+
+(Already downloaded > 160 times!)
+
+!SLIDE
+
+#Thanks for allowing us to waste your time.
+
+!SLIDE
+
+# Micah Gates
+## @micahjgates
+
+# Jason Lewis
+## @canweriotnow
+
+    http://rubygems.org/gems/job_interview
+    https://github.com/ruby-jokes/job_interview
