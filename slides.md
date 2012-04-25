@@ -223,6 +223,36 @@ ruby-1.9.2-p290 :075 > p\_equals\_np
 
 => "I doubt it, but it would make life easier for traveling salesmen."
 
+
+!SLIDE
+
+# Will it work?
+
+!SLIDE
+
+# Will it work?
+
+We have excellent test coverage with RSpec, so we think it will.
+
+@@@ ruby
+
+    def is_correct_answer(type, answer)
+      if answer.respond_to? :wrong
+        return false
+      else
+        return true
+      end
+    end
+@@@
+
+...
+
+@@@ ruby
+    
+    is_correct_answer.should be_true
+    
+@@@
+
 !SLIDE
 
 # The real question
