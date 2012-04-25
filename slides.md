@@ -5,7 +5,7 @@
 !SLIDE
 
 ## Interviewing sucks.
-You get asked dumb questions, and and are asked to perform stupid programmer tricks.
+You get asked dumb questions, and are asked to perform stupid programmer tricks.
 
 !SLIDE
 
