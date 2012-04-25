@@ -5070,12 +5070,32 @@ You get the first <em>n</em> primes!</p><div class="highlight ruby code highligh
         
           <div class="">
             <div id="slide-28" class="content">
-              <h1>The real question</h1><p><img src="./whywouldyoudothat.jpg" alt="Why would you do that?"></p>
+              <h1>Will it work?</h1>
             </div>
           </div>
         
           <div class="">
             <div id="slide-29" class="content">
+              <h1>Will it work?</h1><p>We have excellent test coverage with RSpec, so we think it will.</p><div class="highlight ruby code highlight"><pre><span class="k">def</span> <span class="nf">is_correct_answer</span><span class="p">(</span><span class="n">type</span><span class="p">,</span> <span class="n">answer</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">answer</span><span class="o">.</span><span class="n">respond_to?</span> <span class="ss">:wrong</span>
+    <span class="k">return</span> <span class="kp">false</span>
+  <span class="k">else</span>
+    <span class="k">return</span> <span class="kp">true</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div><p>...</p><div class="highlight ruby code highlight"><pre><span class="n">is_correct_answer</span><span class="o">.</span><span class="n">should</span> <span class="n">be_true</span>
+</pre></div>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-30" class="content">
+              <h1>The real question</h1><p><img src="./whywouldyoudothat.jpg" alt="Why would you do that?"></p>
+            </div>
+          </div>
+        
+          <div class="">
+            <div id="slide-31" class="content">
               <ul>
 <li>We wanted to hack on something trivial at BohConf</li>
 <li>Silly gems are fun</li>
@@ -5085,7 +5105,7 @@ You get the first <em>n</em> primes!</p><div class="highlight ruby code highligh
           </div>
         
           <div class="">
-            <div id="slide-30" class="content">
+            <div id="slide-32" class="content">
               <h1>Thanks for allowing us to waste 5 minutes of your time.</h1>
             </div>
           </div>
